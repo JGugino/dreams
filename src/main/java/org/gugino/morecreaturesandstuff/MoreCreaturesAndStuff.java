@@ -2,6 +2,7 @@ package org.gugino.morecreaturesandstuff;
 
 import net.fabricmc.api.ModInitializer;
 
+import org.gugino.morecreaturesandstuff.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -11,5 +12,6 @@ public class MoreCreaturesAndStuff implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+        ModItems.registerModItems();
 	}
 }
