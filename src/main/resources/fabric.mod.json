@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "more-creatures-and-stuff",
+	"version": "${version}",
+	"name": "More Creatures And Stuff",
+	"description": "Adds more creatures and stuff",
+	"authors": [
+		"Gugino"
+	],
+	"contact": {
+		"homepage": "https://gugino.org",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/more-creatures-and-stuff/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"org.gugino.morecreaturesandstuff.MoreCreaturesAndStuff"
+		],
+		"fabric-datagen": [
+			"org.gugino.morecreaturesandstuff.MoreCreaturesAndStuffDataGenerator"
+		],
+      "client": [
+        "org.gugino.morecreaturesandstuff.MoreCreaturesAndStuffClient"
+      ]
+	},
+	"mixins": [
+		"more-creatures-and-stuff.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.17.2",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
