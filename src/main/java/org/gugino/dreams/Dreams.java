@@ -1,13 +1,13 @@
-package org.gugino.morecreaturesandstuff;
+package org.gugino.dreams;
 
 import net.fabricmc.api.ModInitializer;
 
-import org.gugino.morecreaturesandstuff.item.ModItems;
+import org.gugino.dreams.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-public class MoreCreaturesAndStuff implements ModInitializer {
-	public static final String MOD_ID = "more-creatures-and-stuff";
+public class Dreams implements ModInitializer {
+	public static final String MOD_ID = "dreams";
 	public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
 
 	@Override

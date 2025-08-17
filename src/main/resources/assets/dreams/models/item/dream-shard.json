@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "more-creatures-and-stuff:item/dream-essence"
+    "layer0": "dreams:item/dream-shard"
   }
 }

@@ -1,9 +1,9 @@
-package org.gugino.morecreaturesandstuff;
+package org.gugino.dreams;
 
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
 
-public class MoreCreaturesAndStuffDataGenerator implements DataGeneratorEntrypoint {
+public class DreamsDataGenerator implements DataGeneratorEntrypoint {
 	@Override
 	public void onInitializeDataGenerator(FabricDataGenerator fabricDataGenerator) {
 

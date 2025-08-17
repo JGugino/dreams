@@ -12,17 +12,17 @@
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
 	"license": "CC0-1.0",
-	"icon": "assets/more-creatures-and-stuff/icon.png",
+	"icon": "assets/dreams/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"org.gugino.morecreaturesandstuff.MoreCreaturesAndStuff"
+          "org.gugino.dreams.Dreams"
 		],
 		"fabric-datagen": [
-			"org.gugino.morecreaturesandstuff.MoreCreaturesAndStuffDataGenerator"
+          "org.gugino.dreams.DreamsDataGenerator"
 		],
       "client": [
-        "org.gugino.morecreaturesandstuff.MoreCreaturesAndStuffClient"
+        "org.gugino.dreams.DreamsClient"
       ]
 	},
 	"mixins": [
