@@ -1,4 +1,12 @@
 {
+  "itemgroup.dreams.dream-items": "Dream Items",
+  "itemgroup.dreams.dream-blocks": "Dream Blocks",
+
   "item.dreams.dream-essence": "Dream Essence",
-  "item.dreams.dream-shard": "Dream Shard"
+  "item.dreams.dream-shard": "Dream Shard",
+
+  "block.dreams.dream-shard-ore": "Dream Shard Ore",
+  "block.dreams.dream-stone": "Dream Stone",
+  "block.dreams.dream-cobblestone": "Dream Cobblestone",
+  "block.dreams.dream-shard-block": "Dream Shard Block"
 }

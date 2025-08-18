@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "dreams:dream-stone",
+    "dreams:dream-cobblestone",
+    "dreams:dream-shard-ore",
+    "dreams:dream-shard-block"
+  ]
+}

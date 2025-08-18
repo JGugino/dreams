@@ -20,9 +20,5 @@ public class ModItems {
     public static void registerModItems(){
         Dreams.LOGGER.info("Registering items for mod: " + Dreams.MOD_ID);
 
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(fabricItemGroupEntries -> {
-            fabricItemGroupEntries.add(DREAM_ESSENCE);
-            fabricItemGroupEntries.add(DREAM_SHARD);
-        });
     }
 }

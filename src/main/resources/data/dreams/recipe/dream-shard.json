@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "dreams:dream-shard-block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "dreams:dream-shard"
+  }
+}
